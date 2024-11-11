@@ -1,0 +1,25 @@
+
+<button (click)="sendEmail()"> Send Mail</button>
+
+
+<!-- here we used the inline css reason is emailjs template not understand classes -->
+<div #emailContent>
+    <div style="display: flex; justify-content: center; margin-top: 50px;">
+      <div style="width: 50%; max-width: 500px;">
+        <div style="background-color: #f5f7f5; text-align: center; padding: 20px; border-radius: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+          <p style="margin-bottom: 20px;">Please Accept the Request</p>
+          <div >
+            <button style=" margin-right: 5px;padding: 10px 20px; background-color: #007bff; color: white; border: none; border-radius: 5px; cursor: pointer;">
+              Approve
+            </button>
+            <button style="padding: 10px 20px; background-color: #dc3545; color: white; border: none; border-radius: 5px; cursor: pointer;">
+              Reject
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- here we used the inline css reason email template not understand classes -->
+  
